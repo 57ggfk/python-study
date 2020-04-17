@@ -25,18 +25,18 @@ word = '单引号'
 sentence = "双引号"
 paragraph = """这是一个段落，
 可以由多行组成"""
-# 三引号可以指定多行字符串，Python特性，许特殊记忆
+# 三引号可以指定多行字符串，Python特性，需特殊记忆
 
 # 等待用户输入
 # input("\n\n按下enter继续")
 
-# 同一行显示多条语句，与shell语法接近
-import sys; x= 'python'; sys.stdout.write(x + '\n')
+# 同一行显示多条语句，与shell语法接近，但这样写不规范
+import sys; x = 'python'; sys.stdout.write(x + '\n')
 
 # 空行也是代码的一部分只是便于阅读无实际作用
 
 # Print 输出，end="" 不换行
-print('不换行输出，',end="")
+print('不换行输出，', end="")
 print("换行输出！")
 
 # 全部导入import 部分导入 from...import
@@ -48,8 +48,9 @@ print("\n Python路径为：", sys.path)
 
 print("========部分导入========")
 
-from sys import argv,path
+from sys import argv, path
 print("路径为：", path)
+# js 写法 import { argv, path } from 'sys'
 
 # 多个变量赋值
 a = b = c = 1
@@ -57,8 +58,8 @@ print(a)
 # a1,a2 = 2; 这种写法是错误的
 # a1; 变量必须赋值
 # print(a1);
-a,b,c = 1,2,"python"
-#print( a + b +c)
+a, b, c = 1, 2, "python"
+# print( a + b +c)
 '''
 js 可以这样
 var a = b = c = 1;
@@ -92,16 +93,17 @@ js的判断
 值 typeof 类型
 java的判断
 对象.instanceof(类) 
+对象.getClass()
 '''
 # 在 Python2 中是没有布尔型的，它用数字 0 表示 False，用 1 表示 True。到 Python3 中，把 True 和 False 定义成关键字了，但它们的值还是 1 和 0，它们可以和数字相加。
 
 # 删除对象
-del a,b,c
+del a, b, c
 
 # print(a) # NameError: name 'a' is not defined
 
 # 特殊数值运算
-print(type(2 / 4)) # / 总是得到浮点数
+print(type(2 / 4))  # / 总是得到浮点数
 print(3 // 2)  # 1 整除
 print(2 ** 5)  # 32 乘方
 
@@ -114,12 +116,12 @@ print(type(3.14j)) # <class 'complex'>
 
 str = "Python"
 print(str[0:0])  # 空
-print(str[0:-1]) # Pytho 相当于长度-1
-print(str[0:-2]) # Pyth
+print(str[0:-1])  # Pytho 相当于长度-1
+print(str[0:-2])  # Pyth
 print(str[2:3])
-print(str[0:5]) # Pytho
-print(str[0:6]) # Python str长度是6
+print(str[0:5])  # Pytho
+print(str[0:6])  # Python str长度是6
 
-print(str + "TEST") # PythonTEST 字符串拼接
-print(str * 2) # PythonPython 字符串重复2次
+print(str + "TEST")  # PythonTEST 字符串拼接
+print(str * 2)  # PythonPython 字符串重复2次
 
