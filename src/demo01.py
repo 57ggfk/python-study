@@ -8,8 +8,10 @@ print('hello world!')
 # 代码组，关键字开始，冒号colon : 结束
 if True:
     print("True")
-else:
+elif False:
     print("False")
+else:
+    print("else")
     print("ok")
 
 # code block identified by indent
