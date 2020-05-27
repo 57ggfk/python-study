@@ -110,4 +110,19 @@ for x in range(0, lenRhombus):
             print('*', end=' ')
         print()
 
+print("求和：")
+summary: int = 0
+for x in range(0, 10):
+    summary += x
+print("0~9和为：", summary)
+
+print("偶数求和：")
+summary: int = 0
+for x in range(0, 10):
+    if x % 2 == 0:
+        summary += x
+print("0~9的偶数和为：", summary)
+
+
+
 
