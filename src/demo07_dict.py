@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ conding:utf-8 _*_
+# _*_ coding:utf-8 _*_
 
 # demo dict 字典
 # https://www.runoob.com/python3/python3-dictionary.html
