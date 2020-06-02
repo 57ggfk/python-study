@@ -51,9 +51,10 @@ print("添加集合：", setAdd)
 
 # 移除元素 返回None
 setDel = set('12345')
+# remove如果不存在会报错
 setDel.remove('2')
 print("移除2：", setDel)
-# discard如果不存在并不会报错？
+# discard如果不存在并不会报错
 setDel.discard('1')
 print("抛弃1：", setDel)
 # pop随机弹出
@@ -84,4 +85,26 @@ setInter = set('123')
 print("交集新集合：", setInter.intersection(set('234')))
 setInter.intersection_update(set('345'))
 print("交集更新：", setInter)
+
+# 是否没有有交集
+print("有交集：", not set('123').isdisjoint(set('345')))
+print("没有交集：", set('123').isdisjoint(set('456')))
+
+# 是否参数的子集
+print("是参数的子集：", set('123').issubset(set('1234')))
+# 是否参数的超集
+print("是参数的超集：", set('123').issuperset(set('12')))
+
+# 补集 ^
+print("补集：", set('123') ^ set('234'))
+setSym = set('123')
+print("补集新集合：", setSym.symmetric_difference(set('234')))
+setSym.symmetric_difference_update(set('234'))
+print("补集更新：", setSym)
+
+# 并集 |
+print("并集：", set('123') | set('234'))
+setUnion = set('123')
+print("并集新集合：", setUnion.union(set('234')))
+
 
