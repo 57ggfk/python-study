@@ -127,3 +127,7 @@ print(str[0:6])  # Python str长度是6
 print(str + "TEST")  # PythonTEST 字符串拼接
 print(str * 2)  # PythonPython 字符串重复2次
 
+# 三目运算
+print('x') if 1 > 2 else print('y')
+triple = 't' if True else 'm'
+print(triple)
