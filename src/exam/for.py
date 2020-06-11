@@ -123,6 +123,32 @@ for x in range(0, 10):
         summary += x
 print("0~9的偶数和为：", summary)
 
+print("Fibonacci series: 斐波纳契数列")
+fa, fb = 0, 1
+while fb < 100:
+    print(fb, end=',')
+    fa, fb = fb, fa + fb
+print()
+fa, fb = 0, 1
+while fb < 100:
+    print(fb, end=',')
+    temp = fb
+    fb = fa + fb
+    fa = temp
+print()
 
-
+# 质数素数Prime Number 非合数 大于1的只能被1和它自己整除的数字
+print("素数：", end='')
+a = 2
+while a < 30:
+    # 假设是素数
+    flag = True
+    # 让a除以从1到a-1的数，能有能除尽的就不是素数
+    for i in range(2, a):
+        if a % i == 0:
+            flag = False
+    if flag:
+        print(a, end=', ')
+    a += 1
+print()
 
