@@ -26,6 +26,10 @@ print("list2[1:5]: ", list2[1:5])
 # 删除第三个元素（索引2）
 del list4[2]
 print("删除第三个元素后：", list4)
+# 删除一个切割
+list_multi_del = [1, 2, 3, 4]
+del list_multi_del[1: 3]
+print("删除一个切割后：", list_multi_del)
 
 # 3、操作符
 print("长度：", len(list1))
