@@ -83,3 +83,6 @@ for i in range(5):
         print(str(i) + '-' + str(j), end=' ')
     print()
 
+# pass Do nothing
+for x in (range(2)):
+    pass
