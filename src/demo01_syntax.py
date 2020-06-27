@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # _*_ coding:utf-8 _*_
+
+# Python基础语法
+
 print("Hello World")
 print('hello world!')
 # this is a comment
@@ -72,6 +75,23 @@ java 可以这样
 int a=1,b=2,c=3;
 int a,b=2; //只有b赋值
 '''
+
+# 多变量赋值可用了做变量交换
+var1 = 1
+var2 = 2
+var1, var2 = var2, var1
+
+# 传统方式实现
+temp = var1
+var1 = var2
+var2 = temp
+
+# 稍微啰嗦一点的方式实现，逻辑更清晰简单一些，Python的多变量赋值可以这样理解
+temp1 = var2
+temp2 = var1
+var1 = temp2
+var2 = temp1
+
 
 '''
 Python3 中有六个标准的数据类型：
