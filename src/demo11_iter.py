@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 
 # 迭代器iterator有两个方法iter()、next()
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 a=7+4.2+10.5+4.5 +   \
 2.4+11.5+9.5     +   \
 4.7              +   \

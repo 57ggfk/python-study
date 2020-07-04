@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 # https://www.runoob.com/python3/python3-list.html
 # Python3 列表 | 菜鸟教程e
 # demo list 列表 序列的一种

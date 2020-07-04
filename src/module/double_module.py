@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Filename: support.py
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 
 
 def print_func1(name):

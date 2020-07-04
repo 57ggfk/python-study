@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 
 # 索引访问
 var = "Python"

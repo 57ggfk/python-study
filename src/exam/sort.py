@@ -1,5 +1,5 @@
 #!/sur/bin/env python
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 # 排序算法
 
 # 冒泡排序

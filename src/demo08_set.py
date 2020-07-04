@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 
 # 集合（set）无序的不重复元素序列
 # 相当于java的Set

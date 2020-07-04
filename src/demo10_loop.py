@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ encoding:utf-8 _*_
+# -*- coding: utf-8 -*-
 # 循环语句
 
 # while 循环

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# _*_ coding:utf-8 _*_
+# -*- coding: utf-8 -*-
 # https://www.runoob.com/python3/python3-tuple.html
 # Python3 元组 | 菜鸟教程
 # demo tuple 序列 元组
